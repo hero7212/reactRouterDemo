@@ -1,13 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import Index from './Pages/Index'
+import List from './Pages/List'
 
-function Index() {
-    return <h2>JSPANG.com</h2>
-}
 
-function List() {
-    return <h2>List-page</h2>
-}
 
 function AppRouter() {
 
